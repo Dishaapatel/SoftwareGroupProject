@@ -1,0 +1,419 @@
+html, body {
+	/* font-family: 'Times'; */
+	font-weight: 300;
+	font-family: Calibri;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+}
+
+#main {
+	max-width: 100%;
+	height: 100%;
+}
+
+header {
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-family: 'Times'; */
+	font-family: 'Calibri';
+	font-size: medium;
+	 /* background-color: #858e99;  */
+	background-color: #125ab3;
+	color: white;
+	height: 50px;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#title {
+	font-family: 'Calibri';
+	font-size: 1.5rem;
+	padding: 5%;
+}
+
+#nav-top a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 0.5rem;
+}
+
+#nav-top a.active {
+	color: rgb(51, 53, 47);
+	pointer-events: none;
+}
+
+#mcotg {
+	background-image: url("../assets/images/home.jpeg");
+	background-position: 50% 50%;
+	height: calc(100% - 82px);
+}
+
+#mcotg-txt {
+	font-size: medium;
+	width: 30%;
+	padding: 15% 10%;
+
+}
+
+#mcotg-txt-1 {
+	font-size: medium;
+	font-family: 'Calibri';
+	/* font-size: 4rem; */
+	color: #3e4a59
+}
+
+#mcotg-txt-2 {
+	font-size: medium;
+	font-family: 'Calibri';
+	/* font-family: 'Open Sans', sans-serif; */
+	/* font-size: 1rem; */
+}
+
+#home-content {
+
+	font-family: 'Calibri';
+	padding: 5% 15%;
+	text-align: center;
+}
+
+#hc-title {
+	font-family: 'Calibri';
+	font-size: 2rem;
+	text-align: center;
+}
+
+#hc-title-txt {
+	font-family: 'Calibri';
+	/* font-family: 'Open Sans', sans-serif; */
+	padding: 0.5rem 20%;
+	text-align: center;
+}
+.ph{
+	font-family: 'Calibri';
+     color:#000000;
+	 text-decoration:none;
+
+}
+
+.hc-block {
+	display: flex;
+	text-align: left;
+}
+
+.hc-icon {
+	padding-top: 3rem;
+	min-width: 4rem;
+	min-height: 4rem;
+	fill: #73a3de;
+	margin: 1rem 1rem 0rem 0rem;
+}
+
+.hc-block-txt {
+	font-family: 'Calibri';
+
+	/* font-family: 'Open Sans', sans-serif; */
+	padding: 1rem 10rem;
+	text-align: center;
+}
+
+.fs24 {
+	font-family: 'Calibri';
+	/* font-family: 'Open Sans', sans-serif; */
+	padding-top: 3rem;
+	font-size: 1.5rem;
+}
+
+#home-team {
+	/* background-color: #999191c4; */
+	background-color: #cac7c7; 
+	
+	text-align: center;
+}
+
+.ht-title {
+	font-size: 2.5rem;
+	padding-top: 5%;
+}
+
+.ht-title-txt {
+	font-family: 'Calibri';
+	/* font-family: 'Open Sans', sans-serif; */
+	padding-top: 1rem;
+	padding: 1.5rem 30%;
+}
+
+.ht-box {
+	padding: 1rem 10%;
+    padding-bottom: 4rem;
+
+}
+
+footer {
+	text-align: center;
+	 background-color: #333333;
+	/* background-color: #125ab3; */
+	color: rgb(221, 212, 212);
+	padding: 2rem 0rem;
+}
+.member{
+	background-color: #3e4a59;
+}
+
+.ac{
+	margin: 0px 300px;
+	/* font-size: 20px; */
+	font-size: medium;
+	font-family:'Calibri';
+}
+
+ .know{
+	font-family: 'Calibri';
+	/* font-size: 150%; */
+	 font-size: medium; 
+	margin: 10px 200px;
+	font-weight: bold;
+	text-decoration:none;
+	
+} 
+
+/* .donate{
+	background-color: blue;
+            color: aqua;
+            font-size: 20px;
+            margin: 0px 125px;
+            padding: 12px;
+            border-radius: 50px;
+} */
+
+.hed{
+	color: rgb(24, 61, 24);
+	font-size: large;
+	text-decoration: underline;
+	
+}
+
+.dropdown {
+	font-family: 'Calibri';
+	display: inline-block;
+	position: relative;
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0px 10px 10px 0px rgba(201, 181, 181, 0.37);
+  }
+  .dropdown:hover .dropdown-content {
+	display: block;
+	background-color: #125ab3;
+  }
+  .dropdown-content a {
+	display: block;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+  }
+  .dropdown-content a:hover {
+	color: #6d676754;
+	/* border-radius: 3px; */
+	background-color: #444747;
+  }
+
+.img{
+	padding: 10px 100px;
+	
+
+}
+
+.imgicu{
+	padding: 10px 270px;
+}
+
+  .con{
+	font-size: medium;
+	font-family: 'Calibri';
+	text-decoration: none;
+}  
+
+.fs36 {
+	font-family: 'Calibri';
+	/* font-family: 'Roboto', sans-serif; */
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.ht-sub {
+	font-family: 'Calibri';
+	font-size: 0.875rem;
+}
+
+.content {
+	font-family: 'Times';
+	background-color: #cac7c7; 
+	
+	/*background-color: #e9dfe5;*/
+	min-height: calc(100% - 170px);
+}
+
+#lform, #sform {
+	padding: 5% 25%;
+	font-weight: normal;
+}
+
+.form-header {
+	padding-bottom: 2rem;
+}
+
+.form-group {
+	padding-bottom: 4rem;
+	padding: 1rem 20%;
+	text-align: center;
+}
+
+label {
+	font-family: 'Calibri';
+	float: left;
+}
+
+input {
+	width: 100%;
+	border: 0px solid transparent;
+	border-bottom-color: transparent;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom: 2px solid black;
+	font-weight: normal;
+	padding: 12px 12px;
+}
+
+select {
+	width: 103.6%;
+	border: 0px solid transparent;
+	border-bottom-color: transparent;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom: 2px solid black;
+	font-weight: normal;
+	padding: 12px 12px;
+}
+
+.btn-submit {
+	font-family: 'Calibri';
+	font-size: 1.25rem;
+	border: 2px solid black;
+	width: 50%;
+	padding: 0.75rem 1rem;
+	margin: 1rem 0rem;
+	box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+#showsignup {
+	text-align: center;
+}
+
+#showlogin {
+	text-align: center;
+}
+
+
+.chkbx {
+	width: initial;
+	float: left;
+}
+
+.msg {
+	color: rgb(0, 0, 0);
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+#bform {
+	padding: 5% 15%;
+	font-weight: normal;
+}
+
+.entry-content {
+	font-weight: bold;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 2%;
+}
+
+#table {
+	padding-left: 30%;
+	padding-bottom: 2%;
+	border: #333333;
+}
+
+ .contact {
+	font-family: 'Calibri';
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem 20%;
+	padding-top: 4rem;
+
+}
+
+#contact {
+	padding: 0rem 20%;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+  }
+
+  /* Style the images inside the grid */
+  .column img {
+	opacity: 0.8;
+	cursor: pointer;
+  }
+
+  .column img:hover {
+	opacity: 1;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+	position: relative;
+	display: none;
+  }
+
+  /* Expanding image text */
+  #imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+  }
+
+  /* Closable button inside the image */
+  .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+  }
+  
